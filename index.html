@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="script.js" type="text/javascript" charset="utf-8" async defer></script>
+</head>
+<body>
+
+<div class="container mt-5">
+    <section class="mt-5">
+        <h2>1. Fetch & order</h2>
+        <div>
+            Usando https://randomuser.me/ como fuente de data, crear una función que retorne un arreglo:<br>
+            - Debe retornar 10 personas.<br>
+            - Las personas deberán estar ordenadas por primer nombre.<br>
+        </div>
+        <div class="table-responsive-lg mt-3">
+            <table id="table1" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido(s)</th>
+                  <th scope="col">Edad</th>
+                  <th scope="col">Ciudad</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="mt-5">
+        <h2>2. Fetch & find</h2>
+        <div>
+            Usando https://randomuser.me/ como fuente de data, crear función, que acepte como argumento una edad y retorne la data de la persona: <br>
+            - Retornará 1 sola persona. <br>
+            - La persona a retornar será mayor de la edad especificada como argumento. <br>
+        </div>
+        <form class="form-inline mt-5">
+          <div class="form-group mx-sm-3 mb-2">
+            <label for="age" class="sr-only">Edad</label>
+            <input type="text" class="form-control" id="age" placeholder="Edad a buscar...">
+          </div>
+          <button type="submit" id="search-by-age" class="btn btn-primary mb-2">Buscar</button>
+        </form>
+        <div class="table-responsive-lg mt-3">
+            <table id="table2" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido(s)</th>
+                  <th scope="col">Edad</th>
+                  <th scope="col">Ciudad</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="mt-5">
+        <h2>3. Fetch & count</h2>
+        <div>
+            Usando https://randomuser.me/ como fuente de data, crear función, que retornará un char/string: <br>
+            - Deberá obtener 5 personas. <br>
+            - En base a los nombres deberá calcular cual es la letra más utilizada en los nombres
+completos de las 5 personas. <br>
+        </div>
+        <div class="table-responsive-lg mt-3">
+            <table id="table3" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido(s)</th>
+                  <th scope="col">Letra más utilizada</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+        </div>
+    </section>
+    <section class="mt-5">
+        <h2>4. Fastest ship</h2>
+        <div>
+            Usando https://swapi.dev/ como fuente de data, crear función, que retornará un string: <br>
+            - Aceptara un argumento tipo entero, que indicará la cantidad de pasajeros requerida. <br>
+            - Debera calcular sobre todas los starships <br>
+            - Retornara el nombre la nave que coincida con los siguientes parámetros: <br>
+            - Tiene la capacidad para transportar los pasajeros indicados <br>
+            - Puede viajar por al menos 1 semana. <br>
+            - Fue parte de la trilogía original (4, 5, 6) <br>
+            - Si más de una nave coincide con dichos parámetros, debera retornar la mas rapida. <br>
+        </div>
+        <div class="table-responsive-lg mt-3">
+            <table id="table3" class="table table-striped">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">Nombre</th>
+                  <th scope="col">Apellido(s)</th>
+                  <th scope="col">Letra más utilizada</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+        </div>
+    </section>
+</div>
+
+
+</body>
+</html>
